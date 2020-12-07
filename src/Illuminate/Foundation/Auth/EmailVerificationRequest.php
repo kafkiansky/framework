@@ -28,18 +28,6 @@ class EmailVerificationRequest extends FormRequest
     }
 
     /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array
-     */
-    public function rules()
-    {
-        return [
-            //
-        ];
-    }
-
-    /**
      * Fulfill the email verification request.
      *
      * @return void
